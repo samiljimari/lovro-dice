@@ -1,0 +1,60 @@
+*{
+  margin = 0;
+  padding = 0;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+.sredina{
+  position: absolute;
+  height: 600px;
+  width: 1000px;
+  background-color: lightpink;
+  border: 2px solid black;
+  margin: 0 auto;
+
+}
+.left{
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  background-color: pink;
+}
+.right{
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  background-color: lightpink;
+  margin-left: 500px;
+  border-left: 3px solid black;
+}
+#broj{
+  font-size: 32px;
+  margin: 0px;
+  color: darkred;
+}
+#gumb{
+  position: absolute;
+  z-index: 1;
+  left: 460px;
+  top: 380px;
+  width: 80px;
+  height: 50px;
+  border-radius: 30%;
+  background: black;
+  color: yellow;
+  outline: none;
+}
+#slikica{
+  position: absolute;
+  z-index:1;
+  height: 100px;
+  width: 100px;
+  top: 220px;
+  left:450px;
+  border: 3px solid yellow;
+}
